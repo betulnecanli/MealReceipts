@@ -1,0 +1,15 @@
+1.recyclerview ekle xml dosyasına
+2.item_view oluştur
+3.meal model oluştur(constructor() + get()+set())
+4.adapter sınıfı oluştur
+5.adapter sınıfı içine viewholder oluştur
+6. adapter sınıfına model list ekle, constructor oluştur
+7.recycler adapter ı RecyclerView.Adapter den extends
+8. RecyclerView.Adapter soyut sınıfları ekle
+9.main activity recycler view tanımla
+10.model liste oluştur main activity
+11.listeye ekleme yap
+12.adapter tanımla
+13.layoutmanager tanımla
+14.recyclerview layout ve adapter tanımla
+15.github yükle
