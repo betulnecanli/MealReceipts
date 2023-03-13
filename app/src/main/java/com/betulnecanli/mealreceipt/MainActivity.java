@@ -1,4 +1,4 @@
-package com.betulnecanli.mealreceipts;
+package com.betulnecanli.mealreceipt;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;

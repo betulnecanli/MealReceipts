@@ -1,4 +1,4 @@
-package com.betulnecanli.mealreceipts;
+package com.betulnecanli.mealreceipt;
 
 
 
