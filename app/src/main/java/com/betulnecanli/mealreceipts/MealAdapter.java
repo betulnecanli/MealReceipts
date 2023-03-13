@@ -13,13 +13,13 @@ import java.util.ArrayList;
 
 public class MealAdapter extends RecyclerView.Adapter<MealAdapter.MealViewHolder> {
 
-    private final ArrayList<MealModel> mealList;
+    private final ArrayList<MealsModel> mealList;
 
     // a LayoutInflater object that will be used to inflate the layout for each item in the list.
     private final LayoutInflater layoutInflater;
 
 
-    public MealAdapter(Context context, ArrayList<MealModel> mealList) {
+    public MealAdapter(Context context, ArrayList<MealsModel> mealList) {
         layoutInflater = LayoutInflater.from(context);
 
         this.mealList = mealList;
@@ -65,7 +65,7 @@ public class MealAdapter extends RecyclerView.Adapter<MealAdapter.MealViewHolder
     // descTextView views in the MealViewHolder object to the title and description of the MealModel.
     @Override
     public void onBindViewHolder(@NonNull MealViewHolder holder, int position) {
-        MealModel foodModel = mealList.get(position);
+        MealsModel foodModel = mealList.get(position);
         holder.titleTextView.setText(foodModel.getMealTitle());
         holder.descTextView.setText(foodModel.getMealDesc());
 

@@ -2,12 +2,12 @@ package com.betulnecanli.mealreceipts;
 
 
 
-public class MealModel {
+public class MealsModel {
 
     private String mealTitle;
     private String mealDesc;
 
-    public MealModel(String mealTitle, String mealDesc) {
+    public MealsModel(String mealTitle, String mealDesc) {
         this.mealTitle = mealTitle;
         this.mealDesc = mealDesc;
     }
