@@ -1,21 +1,17 @@
-package com.betulnecanli.mealreceipt
+package com.betulnecanli.mealreceipt.ui.list
 
 import android.content.Context
-import com.betulnecanli.mealreceipt.MealsModel
+import com.betulnecanli.mealreceipt.model.MealsModel
 import androidx.recyclerview.widget.RecyclerView
-import com.betulnecanli.mealreceipt.MealAdapter.MealViewHolder
+import com.betulnecanli.mealreceipt.ui.list.MealAdapter.MealViewHolder
 import android.view.LayoutInflater
 import android.widget.TextView
-import com.betulnecanli.mealreceipt.R
 import android.view.ViewGroup
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.view.View
-import com.betulnecanli.mealreceipt.MealAdapter
-import androidx.recyclerview.widget.LinearLayoutManager
+import com.betulnecanli.mealreceipt.R
 import java.util.ArrayList
 
-class MealAdapter(context: Context?, mealList: ArrayList<MealsModel>,private val clicked : (MealsModel)-> Unit) :
+class MealAdapter(context: Context?, mealList: ArrayList<MealsModel>, private val clicked : (MealsModel)-> Unit) :
     RecyclerView.Adapter<MealViewHolder>() {
     private val mealList: ArrayList<MealsModel>
 
