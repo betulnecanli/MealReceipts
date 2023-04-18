@@ -27,7 +27,10 @@ class DetailFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.mealTitleTv.text = args.mealTitle
+        binding.apply {
+            mealTitleTv.text = args.meal.mealTitle
+            mealDescTv.text = args.meal.mealDesc
+        }
 
     }
 

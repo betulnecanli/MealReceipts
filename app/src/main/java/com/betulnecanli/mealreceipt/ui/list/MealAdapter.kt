@@ -11,9 +11,9 @@ import android.view.View
 import com.betulnecanli.mealreceipt.R
 import java.util.ArrayList
 
-class MealAdapter(context: Context?, mealList: ArrayList<MealsModel>, private val clicked : (MealsModel)-> Unit) :
+class MealAdapter(context: Context?, mealList: List<MealsModel>, private val clicked : (MealsModel)-> Unit) :
     RecyclerView.Adapter<MealViewHolder>() {
-    private val mealList: ArrayList<MealsModel>
+    private val mealList: List<MealsModel>
 
     // a LayoutInflater object that will be used to inflate the layout for each item in the list.
     private val layoutInflater: LayoutInflater

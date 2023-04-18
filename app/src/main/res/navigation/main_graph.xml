@@ -11,8 +11,8 @@
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" >
         <argument
-            android:name="meal_title"
-            app:argType="string" />
+            android:name="meal"
+            app:argType="com.betulnecanli.mealreceipt.model.MealsModel" />
     </fragment>
     <fragment
         android:id="@+id/listFragment"
